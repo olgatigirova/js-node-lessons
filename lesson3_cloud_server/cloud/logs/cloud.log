@@ -1,0 +1,169 @@
+{"level":"info","message":"No fileList found at start","timestamp":"2017-01-21T16:48:42.796Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T16:50:36.342Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T18:14:10.838Z"}
+{"name":"olga","pass":"1234567","level":"error","message":"Not Authorized","timestamp":"2017-01-21T18:15:08.810Z"}
+{"name":"olga","pass":"1234567","level":"error","message":"Not Authorized","timestamp":"2017-01-21T18:27:13.806Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T18:27:38.867Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/cloud/package.json","timestamp":"2017-01-21T18:27:46.203Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T19:13:49.970Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T19:16:06.010Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T19:18:04.735Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T19:18:19.870Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T19:20:01.028Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-21T19:20:12.505Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T19:36:04.064Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-21T19:36:17.488Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T19:44:54.512Z"}
+{"message":"Cannot read property 'filename' of undefined","stack":"TypeError: Cannot read property 'filename' of undefined\n    at /home/olga/JS/lesson3/cloud/routes/index.js:12:82\n    at Layer.handle [as handle_request] (/home/olga/JS/lesson3/cloud/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/olga/JS/lesson3/cloud/node_modules/express/lib/router/route.js:131:13)\n    at Array.<anonymous> (/home/olga/JS/lesson3/cloud/node_modules/multer/lib/make-middleware.js:52:37)\n    at listener (/home/olga/JS/lesson3/cloud/node_modules/on-finished/index.js:169:15)\n    at onFinish (/home/olga/JS/lesson3/cloud/node_modules/on-finished/index.js:100:5)\n    at callback (/home/olga/JS/lesson3/cloud/node_modules/ee-first/index.js:55:10)\n    at IncomingMessage.onevent (/home/olga/JS/lesson3/cloud/node_modules/ee-first/index.js:93:5)\n    at emitNone (events.js:86:13)\n    at IncomingMessage.emit (events.js:185:7)","level":"error","timestamp":"2017-01-21T19:45:07.105Z"}
+{"message":"Cannot read property 'filename' of undefined","stack":"TypeError: Cannot read property 'filename' of undefined\n    at /home/olga/JS/lesson3/cloud/routes/index.js:12:82\n    at Layer.handle [as handle_request] (/home/olga/JS/lesson3/cloud/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/olga/JS/lesson3/cloud/node_modules/express/lib/router/route.js:131:13)\n    at Array.<anonymous> (/home/olga/JS/lesson3/cloud/node_modules/multer/lib/make-middleware.js:52:37)\n    at listener (/home/olga/JS/lesson3/cloud/node_modules/on-finished/index.js:169:15)\n    at onFinish (/home/olga/JS/lesson3/cloud/node_modules/on-finished/index.js:100:5)\n    at callback (/home/olga/JS/lesson3/cloud/node_modules/ee-first/index.js:55:10)\n    at IncomingMessage.onevent (/home/olga/JS/lesson3/cloud/node_modules/ee-first/index.js:93:5)\n    at emitNone (events.js:86:13)\n    at IncomingMessage.emit (events.js:185:7)","level":"error","timestamp":"2017-01-21T19:46:13.625Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt 7b1b4d8cc3f7582ef3a7b01aef51da3f","timestamp":"2017-01-21T19:46:31.494Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T19:49:10.806Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt 32cd3d4070ad4a5c1cfef01394462e1e uploads-development/32cd3d4070ad4a5c1cfef01394462e1e","timestamp":"2017-01-21T19:49:15.685Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:07:07.466Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:11:58.947Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T20:12:13.859Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:37:54.535Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:39:01.625Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:41:25.583Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:42:09.286Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T20:42:16.844Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:46:48.434Z"}
+{"message":"Cannot read property 'path' of undefined","stack":"TypeError: Cannot read property 'path' of undefined\n    at /home/olga/JS/lesson3/cloud/routes/index.js:12:57\n    at Layer.handle [as handle_request] (/home/olga/JS/lesson3/cloud/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/olga/JS/lesson3/cloud/node_modules/express/lib/router/route.js:131:13)\n    at Array.<anonymous> (/home/olga/JS/lesson3/cloud/node_modules/multer/lib/make-middleware.js:52:37)\n    at listener (/home/olga/JS/lesson3/cloud/node_modules/on-finished/index.js:169:15)\n    at onFinish (/home/olga/JS/lesson3/cloud/node_modules/on-finished/index.js:100:5)\n    at callback (/home/olga/JS/lesson3/cloud/node_modules/ee-first/index.js:55:10)\n    at IncomingMessage.onevent (/home/olga/JS/lesson3/cloud/node_modules/ee-first/index.js:93:5)\n    at emitNone (events.js:86:13)\n    at IncomingMessage.emit (events.js:185:7)","level":"error","timestamp":"2017-01-21T20:47:01.453Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:52:38.713Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T20:52:47.670Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T20:53:03.052Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T20:53:13.673Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:55:17.864Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T20:55:30.537Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T20:55:38.634Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T20:58:57.935Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T20:59:06.678Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:00:34.113Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T21:03:53.145Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T21:05:03.771Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:05:13.822Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:05:25.573Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T21:05:52.573Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T21:06:05.046Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T21:10:07.194Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T21:10:17.576Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-21T21:10:36.483Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:10:52.549Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:11:01.912Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T21:16:33.361Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:16:42.844Z"}
+{"level":"info","message":"No fileList found at start","timestamp":"2017-01-21T21:36:49.362Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:36:57.672Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T21:42:31.472Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T21:46:17.844Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T21:46:25.192Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T22:06:25.158Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T22:06:35.073Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-21T22:09:08.342Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-21T22:09:17.856Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T06:00:36.979Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T06:00:50.785Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T06:56:14.821Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T06:56:38.311Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T06:58:23.332Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:04:46.580Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:05:32.466Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:05:45.295Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:06:34.539Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:13:39.344Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:13:44.178Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:13:49.956Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:14:33.500Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:15:33.311Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:17:54.064Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:17:59.633Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:18:29.630Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:18:52.577Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:22:14.367Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:22:48.552Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:24:04.046Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:25:02.827Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:25:08.232Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:25:38.992Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:25:48.375Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:26:25.989Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:28:50.156Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:28:57.779Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:29:25.435Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:29:51.358Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:34:48.327Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:34:55.557Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:35:14.387Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:35:43.889Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:37:01.116Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:39:19.578Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:42:47.952Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:43:03.934Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:48:04.321Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:49:04.610Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T07:56:57.867Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:57:05.297Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T07:57:12.815Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T08:03:05.000Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T08:03:52.730Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T08:04:00.330Z"}
+{"name":"olga","pass":"123456","level":"error","message":"Not Authorized","timestamp":"2017-01-22T08:04:12.772Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T08:04:18.721Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T08:06:45.690Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T08:06:52.301Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T08:06:59.218Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/2.txt","timestamp":"2017-01-22T08:07:20.034Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T09:33:51.482Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-22T09:53:43.099Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-22T09:58:27.541Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-22T10:00:52.099Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/1.txt","timestamp":"2017-01-22T10:01:06.202Z"}
+{"level":"verbose","message":"Uploaded /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:01:37.759Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:03:15.230Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:03:58.564Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:04:41.145Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:05:06.507Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:05:54.599Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:06:01.525Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:26:21.330Z"}
+{"name":"olga","pass":"123456","level":"error","message":"Not Authorized","timestamp":"2017-01-22T10:27:27.121Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:27:35.160Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:30:46.413Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T10:34:25.072Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:34:33.162Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T10:35:53.375Z"}
+{"level":"info","message":"checkfileDate = Sat Jan 21 2017 21:15:42 GMT 0200 (EET):1485033342000","timestamp":"2017-01-22T10:36:01.139Z"}
+{"level":"info","message":"/home/olga/JS/lesson3/filesync/3.txt | uploads-development/54b0b295e154e8bce9c0b0dff80452ca date Sun Jan 22 2017 12:01:37 GMT+0200 (EET):1485079297000","timestamp":"2017-01-22T10:36:01.140Z"}
+{"level":"info","message":"isFileOk true for /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:36:01.140Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:36:01.143Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T10:42:04.172Z"}
+{"level":"info","message":"checkfileDate = Sat Jan 21 2017 21:15:42 GMT 0200 (EET):1485033342000","timestamp":"2017-01-22T10:42:12.779Z"}
+{"level":"info","message":"/home/olga/JS/lesson3/filesync/3.txt:uploads-development/54b0b295e154e8bce9c0b0dff80452ca:date Sun Jan 22 2017 12:01:37 GMT+0200 (EET):1485079297000","timestamp":"2017-01-22T10:42:12.780Z"}
+{"level":"info","message":"isFileOk true for /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:42:12.781Z"}
+{"level":"verbose","message":"Duplicate /home/olga/JS/lesson3/filesync/3.txt","timestamp":"2017-01-22T10:42:12.786Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-22T10:53:34.601Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T08:17:08.252Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T08:19:42.823Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T09:57:57.776Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T09:58:29.545Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T09:59:47.080Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T10:01:00.106Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T10:03:54.015Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T10:04:01.016Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T10:04:10.576Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:08:49.455Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:17:12.626Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T10:17:25.945Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T10:18:33.193Z"}
+{"level":"error","message":"Not Authorized","timestamp":"2017-01-23T10:18:35.578Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:18:42.803Z"}
+{"message":"archiver.createZip is not a function","stack":"TypeError: archiver.createZip is not a function\n    at new Zip (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\zip-archiver\\lib\\index.js:19:24)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\controllers\\download.js:11:15\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:131:13)\n    at Route.dispatch (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:277:22\n    at Function.process_params (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:330:12)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:271:10)\n    at Function.handle (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:176:3)","level":"error","timestamp":"2017-01-23T10:18:46.222Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:20:58.316Z"}
+{"message":"archiver.createZip is not a function","stack":"TypeError: archiver.createZip is not a function\n    at new Zip (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\zip-archiver\\lib\\index.js:19:24)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\controllers\\download.js:11:15\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:131:13)\n    at Route.dispatch (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:277:22\n    at Function.process_params (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:330:12)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:271:10)\n    at Function.handle (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:176:3)","level":"error","timestamp":"2017-01-23T10:21:00.272Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:22:50.174Z"}
+{"message":"archiver.createZip is not a function","stack":"TypeError: archiver.createZip is not a function\n    at new Zip (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\zip-archiver\\lib\\index.js:19:24)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\controllers\\download.js:11:15\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:131:13)\n    at Route.dispatch (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:277:22\n    at Function.process_params (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:330:12)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:271:10)\n    at Function.handle (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:176:3)","level":"error","timestamp":"2017-01-23T10:22:52.939Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:43:22.431Z"}
+{"message":"archiver.createZip is not a function","stack":"TypeError: archiver.createZip is not a function\n    at new Zip (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\zip-archiver\\lib\\index.js:19:24)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\controllers\\download.js:11:15\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:131:13)\n    at Route.dispatch (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:277:22\n    at Function.process_params (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:330:12)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:271:10)\n    at Function.handle (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:176:3)","level":"error","timestamp":"2017-01-23T10:43:24.306Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:48:29.938Z"}
+{"level":"info","message":"FileList loaded at start","timestamp":"2017-01-23T10:50:43.878Z"}
+{"message":"archiver.createZip is not a function","stack":"TypeError: archiver.createZip is not a function\n    at new Zip (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\zip-archiver\\lib\\index.js:19:24)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\controllers\\download.js:11:15\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:131:13)\n    at Route.dispatch (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:277:22\n    at Function.process_params (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:330:12)\n    at next (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:271:10)\n    at Function.handle (D:\\JS\\js-homework\\lesson3_cloud_server\\cloud\\node_modules\\express\\lib\\router\\index.js:176:3)","level":"error","timestamp":"2017-01-23T10:50:45.715Z"}
