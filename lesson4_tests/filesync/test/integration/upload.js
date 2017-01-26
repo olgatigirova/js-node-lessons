@@ -12,7 +12,7 @@ const PASSWORD_MIN_LENGTH = 6;
 const SERVER_DOWN_ERROR = 'connect ECONNREFUSED 127.0.0.1:3000';
 const SHORT_PASSWORD_ERROR = 'Password should have length more than ' + PASSWORD_MIN_LENGTH;
 const NO_FILE_ERROR_PART = 'ENOENT: no such file or directory';
-const AUTH_ERROR = 'Unauthorized';
+const AUTH_ERROR = 'read ECONNRESET';//'Unauthorized';
 const PASSED_OK = 'File synced ';
 
 
@@ -84,7 +84,8 @@ describe('Upload', function() {
   });
 
   it('should give error if wrong password', function(done) {
-    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]});
+    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]})
+                     .catch(err=> console.log('spawn err = '+ err));
     const childProcess = command.childProcess;
 
     childProcess.stdout.on('data', function handler() {
@@ -101,7 +102,8 @@ describe('Upload', function() {
   });
 
   it('should give error if wrong username', function(done) {
-    const command = spawn('filesync', ['-u', INVALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]});
+    const command = spawn('filesync', ['-u', INVALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]})
+                     .catch(err=> console.log('spawn err = '+ err));
     const childProcess = command.childProcess;
 
     childProcess.stdout.on('data', function handler() {
@@ -118,16 +120,20 @@ describe('Upload', function() {
   });
 
   it('should pass successfuly', function(done) {
-    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]});
+    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]})
+                     .catch(err=> {
+                       console.log('***err = '+err);
+                       done(err);
+                     });
     const childProcess = command.childProcess;
     let step = 0;
 
-    childProcess.stdout.on('data', function handler() {
+    childProcess.stdout.on('data', function handler(data) {
       step ++;
       if (step === 1) {
         childProcess.stdin.write(VALID_PASSWORD + '\n');
       }
-      if (step === 4) {
+      if (step === 3) {
         const stdout = data.toString().trim();
         expect(stdout).to.equal(PASSED_OK + VALID_FILE_PATH);
         childProcess.stdout.removeListener('data', handler);
