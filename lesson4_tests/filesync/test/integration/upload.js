@@ -67,7 +67,8 @@ describe('Upload', function() {
 
 
   it('should give error if server is down', function(done) {
-    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]});
+    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]})
+                     .catch(err=> console.log('spawn err = '+ err));
     const childProcess = command.childProcess;
 
     childProcess.stdout.on('data', function handler() {
@@ -121,10 +122,7 @@ describe('Upload', function() {
 
   it('should pass successfuly', function(done) {
     const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], { capture: [ 'stdout', 'stderr' ]})
-                     .catch(err=> {
-                       console.log('***err = '+err);
-                       done(err);
-                     });
+                     .catch(err=> console.log('spawn err:  = '+ err));
     const childProcess = command.childProcess;
     let step = 0;
 
