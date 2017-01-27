@@ -21,10 +21,10 @@ function postFileToCloud(filePath, username, password) {
         .post(uploadUrl)
         .auth(username, password)
         .type('form')
-        .on('progress', function(e) {
+        //.on('progress', function(e) {
           //var percentDone = Math.floor((e.loaded / e.total) * 100);
           //bar.update(percentDone);
-        })
+        //})
         .attach('syncfile', fileStream)
         .set('Accept', 'application/json');
     });

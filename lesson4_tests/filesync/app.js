@@ -34,8 +34,8 @@ command
   //   });
   // })
   //promisified + ES6
-  .action(file => promptly.prompt('Enter password:', { validator: validator, silent: true })
-    .then(password => cloud.upload(file, command.username, password))//TO-DO: promisify
+  .action(file => promptly.prompt('Enter password:', {validator: validator, silent: true})
+    .then(password => cloud.upload(file, command.username, password)) //TO-DO: promisify
     .then(() => {
       console.log('File synced', file);
       process.exit(0);
@@ -49,7 +49,7 @@ function exitWithError(err) {
   process.exit(1);
 }
 
-function validator (value) {
+function validator(value) {
   if (value.length < PASSWORD_MIN_LENGTH) {
     throw new Error('Password should have length more than ' + PASSWORD_MIN_LENGTH);
   }
