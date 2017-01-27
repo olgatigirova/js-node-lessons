@@ -1,7 +1,7 @@
 const spawn = require('child-process-promise').spawn;
 const expect = require('chai').expect;
-const VALID_FILE_PATH = '../../README.md';
-const INVALID_FILE_PATH = '../../README123.md';
+const VALID_FILE_PATH = '../README.md';
+const INVALID_FILE_PATH = '../README123.md';
 const PASSWORD_PROMPT = 'Enter password:';
 const VALID_USER = 'qwe';
 const INVALID_USER = 'qweee';

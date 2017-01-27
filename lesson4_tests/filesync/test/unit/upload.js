@@ -8,11 +8,11 @@ const sinonChai = require('sinon-chai');
 chai.use(sinonChai);
 const cloud = require('../../cloudClient');
 
-const VALID_FILE_PATH = '../../README.md';
+const VALID_FILE_PATH = '../README.md';
 const VALID_FILE_SIZE = fs.statSync(path.resolve(VALID_FILE_PATH)).size;
 const VALID_USER = 'qwe';
 const VALID_PASSWORD = 'securepass';
-const INVALID_FILE_PATH = '../../README123.md';
+const INVALID_FILE_PATH = '../README123.md';
 const NO_FILE_ERROR_PART = 'ENOENT: no such file or directory';
 const STUB_SERVER_RESPONSE = 'ok';
 
