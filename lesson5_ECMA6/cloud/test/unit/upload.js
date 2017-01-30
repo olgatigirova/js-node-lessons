@@ -1,16 +1,16 @@
-var expect = require('chai').expect;
-var validator = require('../../controllers/upload').validate();
+const expect = require('chai').expect;
+const validator = require('../../controllers/upload').validate();
 
-describe('Upload controller', function() {
+describe('Upload controller', () => {
 
-  it('validator middleware should validate correct request', function() {
-    validator({ query: { filePath: 'path/to/file' } }, {}, function(err) {
+  it('validator middleware should validate correct request', () => {
+    validator({ query: { filePath: 'path/to/file' } }, {}, err => {
       expect(err).to.equal(undefined);
     });
   });
 
-  it('validator middleware should give validation error on request with no filePath', function() {
-    validator({ query: {} }, {}, function(err) {
+  it('validator middleware should give validation error on request with no filePath', () => {
+    validator({ query: {} }, {}, err => {
       expect(err.code).to.equal(400);
     });
   });

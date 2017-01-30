@@ -21,23 +21,23 @@ describe('Upload unit', function () {
 
   let postRequest;
 
-  before(function () {
+  before(() => {
     postRequest = sinon.stub(superagent, 'post');
   });
 
-  after(function () {
+  after(() => {
     postRequest.restore();
   });
 
-  beforeEach(function () {
+  beforeEach(() => {
     sinon.spy(console, 'log');
   });
 
-  afterEach(function () {
+  afterEach(() => {
     console.log.restore();
   });
 
-  it('should give error if file doesnt exist', function () {
+  it('should give error if file doesnt exist', () => {
     return cloud.upload(INVALID_FILE_PATH)
       .then(result => {
         return Promise.reject('Got success result' + result);
@@ -47,27 +47,15 @@ describe('Upload unit', function () {
       });
   });
 
-  var PostStub = function () {
-    ['auth', 'type', 'on', 'attach']
-    .map(method => this[method] = () => this);
-    this.set = () => STUB_SERVER_RESPONSE;
+  class PostStub {
+    constructor() {
+      ['auth', 'type', 'on', 'attach']
+      .map(method => this[method] = () => this);
+    }
+    set() { return STUB_SERVER_RESPONSE };
   };
-
-  // // ES5 version
-  // var PostStub = function() {
-  //   var self = this;
-  //   ['auth', 'type', 'on', 'attach']
-  //     .map(function(method) {
-  //       self[method] = function() {
-  //         return self;
-  //       };
-  //     });
-  //   this.set = function() {
-  //     return STUB_SERVER_RESPONSE;
-  //   };
-  // };
-
-  it('should return result of the cloud response', function () {
+  
+  it('should return result of the cloud response', () => {
     postRequest.returns(new PostStub());
     return cloud.upload(VALID_FILE_PATH, VALID_USER, VALID_PASSWORD)
       .then(function (result) {

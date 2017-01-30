@@ -1,3 +1,3 @@
-# Lesson 4 homework
+# Lesson 5 homework
 
-Three filesync integration tests are added
+More ECMA6 code added.

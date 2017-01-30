@@ -20,9 +20,8 @@ const PASSED_OK = 'File synced ';
 describe('Upload', function () {
 
 
-  it('should ask a password', function (done) {
-    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], {capture: ['stdout', 'stderr']}
-    );
+  it('should ask a password',  done => {
+    const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], {capture: ['stdout', 'stderr']});
     const childProcess = command.childProcess;
     childProcess.stdout.on('data', function handler(data) {
       const stdout = data.toString().trim();
@@ -33,7 +32,7 @@ describe('Upload', function () {
   });
 
 
-  it('should give error on short password', function (done) {
+  it('should give error on short password', done => {
     const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], {capture: ['stdout', 'stderr']});
     const childProcess = command.childProcess;
     let askedPassword = false;
@@ -51,7 +50,7 @@ describe('Upload', function () {
   });
 
 
-  it('should give error if file not found', function (done) {
+  it('should give error if file not found', done => {
     const command = spawn('filesync', ['-u', VALID_USER, INVALID_FILE_PATH], {capture: ['stdout', 'stderr']})
       .catch(err => {
         expect(err.stderr.includes(NO_FILE_ERROR_PART)).to.equal(true);
@@ -65,7 +64,7 @@ describe('Upload', function () {
   });
 
 
-  it('should give error if server is down', function (done) {
+  it('should give error if server is down', done => {
     const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], {capture: ['stdout', 'stderr']})
       .catch(err => console.log('spawn err = ' + err));
     const childProcess = command.childProcess;
@@ -83,7 +82,7 @@ describe('Upload', function () {
     });
   });
 
-  it('should give error if wrong password', function (done) {
+  it('should give error if wrong password', done => {
     const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], {capture: ['stdout', 'stderr']})
       .catch(err => console.log('spawn err = ' + err));
     const childProcess = command.childProcess;
@@ -101,7 +100,7 @@ describe('Upload', function () {
     });
   });
 
-  it('should give error if wrong username', function (done) {
+  it('should give error if wrong username', done => {
     const command = spawn('filesync', ['-u', INVALID_USER, VALID_FILE_PATH], {capture: ['stdout', 'stderr']})
       .catch(err => console.log('spawn err = ' + err));
     const childProcess = command.childProcess;
@@ -119,7 +118,7 @@ describe('Upload', function () {
     });
   });
 
-  it('should pass successfuly', function (done) {
+  it('should pass successfuly', done => {
     const command = spawn('filesync', ['-u', VALID_USER, VALID_FILE_PATH], {capture: ['stdout', 'stderr']})
       .catch(err => console.log('spawn err:  = ' + err));
     const childProcess = command.childProcess;

@@ -6,36 +6,19 @@
   Any argument to it not in a 'name=value' format is a command to execute.
 */
 
-var command = require('commander');
-var promptly = require('promptly');
-var chalk = require('chalk');
-var cloud = require('./cloudClient');
+let command = require('commander');
+let promptly = require('promptly');
+let chalk = require('chalk');
+let cloud = require('./cloudClient');
+let co = require('co');
 
-var PASSWORD_MIN_LENGTH = 6;
+let PASSWORD_MIN_LENGTH = 6;
 
-//var userArgs = process.argv.slice(2);
-//console.log('command started with args:', process.argv, ', so userArgs are:', userArgs);
 
 command
   .arguments('<file>')
   .option('-u, --username <username>', 'Enter username:')
-  // .action(function(file) {
-  //   promptly.prompt('Enter password:', { validator: validator, silent: true }, function (err, password) {
-  //     if (err) {
-  //       return exitWithError(err);
-  //     }
-  //     cloud.upload(file, command.username, password, function(err, res) {
-  //       if (err) {
-  //         return exitWithError(err);
-  //       }
-  //       console.log(chalk.green('File synced'), file);
-  //       process.exit(0);
-  //     });
-  //   });
-  // })
-  //promisified + ES6
-  .action(file => promptly.prompt('Enter password:', {validator: validator, silent: true})
-    .then(password => cloud.upload(file, command.username, password)) //TO-DO: promisify
+  .action(file => co(commandAction(file, command.username))
     .then(() => {
       console.log('File synced', file);
       process.exit(0);
@@ -51,7 +34,13 @@ function exitWithError(err) {
 
 function validator(value) {
   if (value.length < PASSWORD_MIN_LENGTH) {
-    throw new Error('Password should have length more than ' + PASSWORD_MIN_LENGTH);
+    throw new Error(`Password should have length more than ${PASSWORD_MIN_LENGTH}`);
   }
   return value;
+}
+
+function* commandAction(file, username)
+{
+  let password = yield promptly.prompt('Enter password:', {validator: validator, silent: true});
+  return cloud.upload(file, username, password)
 }

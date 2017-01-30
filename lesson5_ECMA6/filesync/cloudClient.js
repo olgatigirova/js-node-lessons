@@ -1,10 +1,10 @@
-var Promise = require('bluebird');
-var fs = Promise.promisifyAll(require('fs'));
-var path = require('path');
-var agent = require('superagent');
+let Promise = require('bluebird');
+let fs = Promise.promisifyAll(require('fs'));
+let path = require('path');
+let agent = require('superagent');
 //var progressBar = require('progress-bar');
 
-var CLOUD_URL = 'localhost:3000/upload';
+let CLOUD_URL = 'localhost:3000/upload';
 
 module.exports = {
   upload: postFileToCloud
@@ -31,7 +31,7 @@ function postFileToCloud(filePath, username, password) {
 }
 
 function generateUploadUrl(filePath) {
-  var filePathQuery = encodeURI(path.resolve(filePath));
+  const filePathQuery = encodeURI(path.resolve(filePath));
   console.log('filePathQuery generated', filePathQuery);
-  return CLOUD_URL + '?filePath=' + filePathQuery;
+  return `${CLOUD_URL}?filePath=${filePathQuery}`;
 }
