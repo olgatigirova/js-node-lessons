@@ -1,0 +1,10 @@
+{
+    "service": "Gmail",
+    "mailCreds": {
+        "user": "aaa.bbbb@gmail.com",
+        "pass": "AAAAA8888"
+    },
+    "fromMail": "aaa.bbbb@gmail.com",
+    "managerMail": "kkkkkk@yahoo.com"
+}
+

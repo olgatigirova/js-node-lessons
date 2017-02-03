@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML>
+  <HEAD>
+    <TITLE>Make Order Form</TITLE>
+  </HEAD>
+
+  <BODY bgcolor="grey">
+    <b>Please fill the order:</b>
+    
+  <form action="/order/" method="post" name="order_form">
+    <p><input type="text" name="first_name" value=""> Enter your first name <Br>
+    <input type="text" name="last_name" value=""> Enter your last name <Br>
+    <p><input type="tel" name="phone" value=""> Enter your contact phone <Br>
+    <input type="email" name="mail" value=""> Enter your contact email <Br></p>
+    
+    <select multiple size="6" name="product">
+      <option disabled>Choose the product</option>
+      <option value="milk">Milk</option>
+      <option value="bread">Bread</option>
+      <option value="sinamon">Sinamon</option>
+      <option value="sugar">Sugar</option>
+      <option value="vine">Vine</option>
+    </select></p>
+
+   <p><input type="submit" value="Submit order"></p>
+  </form>
+
+  </BODY>
+</HTML>

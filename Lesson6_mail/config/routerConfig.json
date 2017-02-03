@@ -1,0 +1,11 @@
+{
+    "errorMessages": {
+        "error_empty_fields": "<h3>All the fields should be set</h3>",
+        "error_no_product": "<h3>Please choose some products</h3>",
+        "error_mail": "<h3>The email is not valid</h3>",
+        "error_phone": "<h3>The phone number is not valid</h3>",
+        "error_no_route": "<h3>Unknown request</h3>",
+        "error_sending_mail": "<h3>Error processing order: failed to send email</h3>"
+    }
+}
+
