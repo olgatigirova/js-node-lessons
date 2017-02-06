@@ -11,8 +11,13 @@ router.post('/token', wrap(function *(req, res) {
 
 router.get('/sessions/:token', wrap(function *(req, res) {
   log.info('Token check request', req.params.token);
-  yield tokenCtrl.check(req.params.token);
-  res.status(200).end();
+  const ret = yield tokenCtrl.check(req.params.token);
+  if (ret) {
+    res.status(200).end();
+  }
+  else {
+    res.status(404).end();
+  }
 }));
 
 module.exports = router;
